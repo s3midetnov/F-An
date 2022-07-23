@@ -1,9 +1,7 @@
 \babel@toc {russian}{}\relax 
-\contentsline {subsection}{\numberline {-1.1}Самый важный случай}{1}{subsection.0.-1.1}%
 \contentsline {section}{\numberline {0}Вступление}{1}{section.0.0}%
 \contentsline {subsection}{\numberline {0.1}Про ограниченные множества}{2}{subsection.0.0.1}%
-\contentsline {subsection}{\numberline {0.2}Про полунормы}{3}{subsection.0.0.2}%
-\contentsline {subsection}{\numberline {0.3}Пространства $C^\infty (\Omega ), \mathcal {D}_K$}{3}{subsection.0.0.3}%
+\contentsline {subsection}{\numberline {0.2}Пространства $C^\infty (\Omega ), \mathcal {D}_K$}{3}{subsection.0.0.2}%
 \contentsline {section}{\numberline {1}О полноте}{3}{section.0.1}%
 \contentsline {subsection}{\numberline {1.1}Теорема Банаха-Штейнгауза}{3}{subsection.0.1.1}%
 \contentsline {subsection}{\numberline {1.2}Полезные частные случаи}{4}{subsection.0.1.2}%
