@@ -1,0 +1,50 @@
+\documentclass[12pt, a4paper, oneside]{book}
+\usepackage[no-chapters, fix-math-spacing, slanted-inequalities]{preamble}
+\usepackage{files/lua}
+\usepackage{amssymb}
+\usepackage{stmaryrd}
+\usepackage{wasysym}
+
+\begin{document}
+
+\SupplKernOn
+%\input{title}
+
+\frontmatter
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mainmatter
+
+\begin{document}
+
+\section{Задачи к части 2}
+\begin{problem}[1]
+Пусть $X$ -- бесконечномерное ТВП, $X = \cup_n E_n$, где $E_n \leqslant X$ -- конечномерно. Тогда $X$ -- $I$ категории в себе.
+\end{problem}
+    \begin{proof}
+
+    \end{proof}
+\begin{problem}[4]
+Доказать, что $L^2[0,1] \subset L^1[0,1]$ является множеством $I$ категории тремя способами:
+    \begin{enumerate}
+        \item Показать, что множество $\left\{ f: \int |f|^2 \leqslant n\right\}$ замкнуто, но имеет пустую внутренность в $L^1$.
+        \item Пусть
+        Показать, что
+        $g_n(x) = \begin{cases} n, x \in [0, \frac{1}{n^3}] \\ 0, x \in [\frac{1}{n^3}, 1]\end{cases}$
+        $$\int f g_n \to 0\qquad \forall f \in L^2 \; \& \; \not\forall f \in L^1$$
+        \item Показать, что естественное вложение $L^2 \to L^1$ непрерывно, но не сюръективно.
+    \end{enumerate}
+\end{problem}
+
+
+    \begin{problem}[6]
+    Определим коэффициенты Фурье:
+        $$f \in L^2(T) \rightsquigarrow \hat f(n) = \frac{1}{2\pi}\int_T f(s) s^{-n} ds = \frac{1}{2\pi} \langle f, s^n\rangle$$
+        Положим $$\Lambda_n f = \sum_{k = -n}^n \hat f(n)$$
+        Доказать, что множество $R = \{f: \text{ существует } \lim_{n \to \infty} \Lambda_n f\}$ является \textbf{(a)} всюду плотным в $L^2$, \textbf{(b)} множеством $I$ категории в $L^2$
+    \end{problem}
+
+\end{document}
