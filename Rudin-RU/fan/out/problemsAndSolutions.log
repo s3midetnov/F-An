@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.5.24)  25 JUL 2022 10:22
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.5.24)  25 JUL 2022 10:39
  restricted system commands enabled.
  file:line:error style messages enabled.
 **problemsAndSolutions.tex
@@ -1810,11 +1810,22 @@ t)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Inserting `suppl_math_kerning' at position 1 in `process_input_buffer'.
-(/Users/artemsemidetnov/Documents/F-An/Rudin-RU/fan/out/problemsAndSolutions.to
-c
+
+./problemsAndSolutions.tex:21: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \begin{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Trying to load font information for OT1+stix2 on input line
- 2.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/stix2-type1/ot1stix2.fd
+ 25.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/stix2-type1/ot1stix2.fd
 File: ot1stix2.fd 2018/04/02 v2.0.0-latex stix2 OT1 font definitions
 )
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-ptm.cfg
@@ -1822,32 +1833,33 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/1
 2'
-(microtype)             (new value: 12.0pt) on input line 2.
+(microtype)             (new value: 12.0pt) on input line 25.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/8
 .8'
-(microtype)             (new value: 8.8pt) on input line 2.
+(microtype)             (new value: 8.8pt) on input line 25.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/6
 .6'
-(microtype)             (new value: 6.6pt) on input line 2.
+(microtype)             (new value: 6.6pt) on input line 25.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-2.
+25.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-2.
+25.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-2.
+25.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1855,7 +1867,8 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1864,36 +1877,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-.
+5.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 2.
-
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 25
+.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-))
-\tf@toc=\write7
-
-\openout7 = problemsAndSolutions.toc
- [1
+) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-./problemsAndSolutions.tex:22: LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \begin{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
 
 ]
 (/Users/artemsemidetnov/Documents/F-An/Rudin-RU/fan/out/problemsAndSolutions.au
@@ -1903,24 +1897,24 @@ Package rerunfilecheck Info: File `problemsAndSolutions.out' has not changed.
 )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 22 (\begingroup)
+### semi simple group (level 1) entered at line 21 (\begingroup)
 ### bottom level
 
 Here is how much of LuaTeX's memory you used:
- 35535 strings out of 477785
+ 35516 strings out of 477785
  125240,1144653 words of node,token memory allocated
  936 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 5 kern, 1 penalty, 10 glyph, 2
 8 attribute, 103 glue_spec, 16 attribute_list, 2 write nodes
-   avail lists: 1:1,2:589,3:135,4:54,5:446,6:32,7:2206,8:46,9:352,10:4,11:188
- 54667 multiletter control sequences out of 65536+600000
- 117 fonts using 13077071 bytes
+   avail lists: 1:3,2:608,3:212,4:84,5:666,6:48,7:3310,8:47,9:531,10:4,11:282
+ 54658 multiletter control sequences out of 65536+600000
+ 115 fonts using 12365375 bytes
  113i,11n,128p,1016b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/stix2-type1/stix2-ot1.enc}</
-usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoText-It
-alic.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STI
-XTwoText-Regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/s
-tix2-otf/STIXTwoText-Bold.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/STIXTwoText-Re
+gular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/stix2-otf/ST
+IXTwoText-Bold.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/sti
+x2-otf/STIXTwoText-Italic.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
 blic/newtx/NewTXMI.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/st
 ix2-type1/STIX2Text-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
 public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/typ
@@ -1929,10 +1923,10 @@ e1/public/stickstoo/stickstooMath-Italic.pfb></usr/local/texlive/2022/texmf-dist
 /texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/newtx/txmiaX.pfb></usr/local/texlive/2022/texmf-dist/fonts
 /type1/public/newtx/txsys.pfb>
-Output written on problemsAndSolutions.pdf (2 pages, 207804 bytes).
+Output written on problemsAndSolutions.pdf (1 page, 206462 bytes).
 
-PDF statistics: 87 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 131072)
+PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 100000000)
 
